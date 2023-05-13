@@ -12,21 +12,7 @@ def greet(message):
 @bot.message_handler(commands=['hello'])
 def greet(message):
     bot.reply_to(message,"Hello....chaitanya reddy")
-# @bot.message_handler(commands=['start'])
-# def greet(message):
-#     bot.reply_to(message,"""Hello
-#                         click the button or reply with your choice :
-#                             1./bank
-#                             2./card
-#                             3.pay
-#                             4./account
-#                             5./simswap
-#                             6./pgp
-#                             7./cardotp
-#                             8./callcenter
-#                             9./ssn
-#                             10./apple
-#                             11./link""")
+
 
 
 @bot.message_handler(commands=['start'])

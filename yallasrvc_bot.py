@@ -134,4 +134,10 @@ def greet(message):
 
                 https://www.youtube.com/playlist?list=PLYzW_Q-anwtyhesWMoiSMeOLpXcAsurB1
      """)
-bot.polling()
+    try:
+        bot.polling()
+    except as e:
+        print(f"{e}")
+        bot.polling()
+        
+        

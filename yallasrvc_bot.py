@@ -136,8 +136,8 @@ def greet(message):
      """)
     try:
         bot.polling()
-    except as e:
-        print(f"{e}")
+    except:
+        print(f"error")
         bot.polling()
         
         

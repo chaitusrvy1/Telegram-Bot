@@ -134,10 +134,7 @@ def greet(message):
 
                 https://www.youtube.com/playlist?list=PLYzW_Q-anwtyhesWMoiSMeOLpXcAsurB1
      """)
-    try:
-        bot.polling()
-    except:
-        print(f"error")
-        bot.polling()
+
+
         
         

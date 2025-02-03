@@ -2,8 +2,9 @@ import os
 import telebot
 from flask import Flask
 
-API_KEY = '6239324931:AAGt2JngWrgwxZWGB-dC_7EdZqX4x4HYp0g'
-bot = telebot.TeleBot(API_KEY)
+# API_KEY = '6239324931:AAGt2JngWrgwxZWGB-dC_7EdZqX4x4HYp0g'
+# bot = telebot.TeleBot(API_KEY)
+from yallasrvc_bot import bot
 
 # Your Telegram bot handlers here...
 
